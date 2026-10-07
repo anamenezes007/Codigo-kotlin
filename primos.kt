@@ -4,15 +4,15 @@ fun main() {
     val scanner = Scanner(System.`in`)
     print("Digite a quantidade de números primos (N): ")
     
-    // Lê o valor de N informado pelo usuário
+    // aqui o puto do usuario vai colocar o numero e o programa vai guardar dentro do celebro
     val n = scanner.nextInt()
-    
+    // aqui a baixo eu nao etendi porra nenhuma mas pelo que o copilot me falou ele meio q ele serve como placar pra o programa ter conciencia de quais numeros primos ja foram e quais tem ainda (muitos pq os numeros sao infinitos mais ok)
     var contadorPrimosEncontrados = 0
     var numeroAtual = 2 // O primeiro número primo é o 2
 
     println("Os primeiros \$n números primos são:")
 
-    // Continua o loop até encontrar N números primos
+    // aqui parece que o querido imprime uma mensagem e o $n ele substitui o texto pelo valor real, o q é isso, nao entendi bolhufas mas acho que pode ser o numero 
     while (contadorPrimosEncontrados < n) {
         if (ehPrimo(numeroAtual)) {
             print("\$numeroAtual ")
